@@ -62,8 +62,8 @@ const edit = () => {
     editBtn.innerText = 'Save';
 
   } else {
-    if(title.value == null){
-      alert('Due this task being empty, it will be deleted.')
+    if(title.innerHTML == `<br>`){
+      alert('As this task is empty, it will be deleted.');
       dlt();
     }
     title.classList.remove('edit-title');
