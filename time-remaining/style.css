@@ -110,6 +110,7 @@ body{
     gap: 10px;
     background-color: white;
     flex-wrap: wrap;
+    min-width: fit-content;
     max-width: 550px;
 }
 
@@ -131,4 +132,10 @@ body{
 
 .delete:hover {
     scale: 1.05;
+}
+
+/* new */
+
+.hidden{
+    display: none;
 }
