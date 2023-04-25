@@ -4,6 +4,7 @@
 * {
     margin: 0;
     padding: 0;
+    overflow-x: none;
 }
 
 header, footer{
@@ -26,7 +27,7 @@ header h1,footer p{
 .grid{
     display: grid;
     grid-template-columns: repeat(auto-fit , minmax(250px ,calc(50% - 2px)));
-    grid-auto-rows: 240px;
+    grid-auto-rows: 270px;
 }
 
 .to-do,.stop-watch, .time-remaning,.resources-saver {
@@ -77,5 +78,12 @@ header h1,footer p{
     }
     .feedback {
         grid-row: span 2/ auto;
+    }
+    .to-do{
+        border-top: none;
+    }
+    .stop-watch,.to-do,.resources-saver,.time-remaining,.feedback{
+        border-left : 0;
+        border-right : 0;
     }
 }
