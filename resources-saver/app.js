@@ -14,7 +14,7 @@ submitBtn.addEventListener('click', () => {
         alert('Please fill all the required input fields.');
     }
     else if(isUrl(resourceUrl.value) == false){
-        alert('Please enter a valid URL');
+        alert(`Please enter a valid URL.\nMake sure to include full URL including "https"`);
     }
     else {
         let resourcesTitle = `
