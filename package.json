@@ -1,0 +1,20 @@
+{
+  "name": "student's-lounge",
+  "version": "1.0.0",
+  "description": "Student's Lounge offers basic tools to increase a student's productivity. It offers a stop-watch, to-do list, time remaining for exams and a resource saver.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raghavsrvt/Student-s-Lounge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raghavsrvt/Student-s-Lounge/issues"
+  },
+  "homepage": "https://github.com/raghavsrvt/Student-s-Lounge#readme"
+}
