@@ -1,8 +1,8 @@
 {
     "name": "Student's Lounge by Raghav Srvt",
     "short_name": "Student's Lounge",
-    "start_url": "./index.html",
-    "scope": "./",
+    "start_url": "https://raghavsrvt.github.io/students_lounge/",
+    "scope": "https://raghavsrvt.github.io/students_lounge/",
     "icons": [
       {
         "src": "./img/favicon/192_192.png",
