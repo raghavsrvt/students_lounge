@@ -1,0 +1,108 @@
+@media screen and (min-width : 1367px){
+    .xp-points-disp{
+        position: absolute;
+    }
+}
+
+@media screen and (max-width : 1037px) and (min-width : 1001px){
+    #resource-title, #resource-url{
+        width: 80px;
+    }
+}
+
+@media screen and (max-width : 1000px){
+    header{
+        position: sticky; 
+        top: 0; 
+        z-index: 4;
+        background-color: rgba(0, 0, 0, 1);
+        backdrop-filter: blur(2px);
+        margin-bottom: 0;
+        box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);
+    }
+
+    h2{
+        text-align: center;
+    }
+
+    .grid{
+        grid-template-columns: 1fr;
+    }
+
+    #resource-title,#resource-url{
+        width: 100%;
+        max-width: 80px;
+    }
+
+    .resources-saver{
+        resize: none;
+        min-height: 250px;
+        height: fit-content;
+    }
+
+    .time-remaining{
+        min-height: 250px;
+        max-height: fit-content;
+    }
+
+    .to-do{
+        min-height: 350px;
+        height: fit-content;
+    }
+
+    .input-div{
+        margin: 0.5rem;
+    }
+}
+
+@media screen and (max-width : 483px) {
+    .exam-title{
+        padding: 1rem;
+        padding-right: 3.5rem;
+    }
+}
+
+@media screen and (min-width : 483px) {
+    #input-text-field{
+        width: 139px;
+    }
+}
+
+@media screen and (max-width : 473px) {
+    #exam-name,#input-text-field{
+        width: 238.14px;
+    }
+}
+
+@media screen and (max-width : 369px) {
+    #resource-title{
+        width: 154px;
+    }
+}
+
+@media screen and (max-width : 500px) {
+    header{
+        padding-bottom: 0.5rem;
+        flex-direction: column;
+    }
+
+    header h1{
+        font-size: 1.5rem;
+    }
+    
+    .xp{
+        right: 0;
+        position: static;
+    }
+    
+    .xp-text, .xp-points{
+        font-size: 0.9rem;
+    }
+    
+    .xp-points-disp{
+        font-size: 1rem;
+        left: -2.5px;
+        margin-left: 50%;
+        top: 4.6rem;
+    }
+}

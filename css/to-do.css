@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.to-do .tool-header{
+    top: 0px;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+}
+
+.to-do h2{
+    text-align: center;
+}
+
+.to-do{
+    overflow: scroll;
+    height: 538px;
+    padding-bottom: 2rem;
+}
+
+.date{
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    border: none;
+    height: fit-content;
+    background-color: #2B2A2A;
+}
+
+.checked {
+    text-decoration: line-through red 2px;
+}
+
+.edit-title {
+    text-decoration: underline wavy red 1px;
+}
+
+.task, .task-left,.task-div-2, .task-right, .input-div-child, #task-list, .input-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.task {
+    overflow: hidden;
+    border-radius: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: var(--secondary);
+    list-style: none;
+    padding: 1rem;
+    max-width: 600px;
+    gap: 10px;
+    position: relative;
+    padding-right: 100px;
+}
+
+.task-left {
+    gap: 0.6rem;
+}
+
+.task-div-2 {
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 0.5rem;
+}
+
+.toDoTitle {
+    word-wrap: break-word;
+    transition: var(--transition);
+}
+
+.task-right {
+    justify-content: right;
+    gap: 0.25rem;
+    background-color: #2b2a2abd;
+    position: absolute;
+    right: 0.6rem;
+    padding: 0.3rem;
+    border-radius: 1rem;
+}
+
+.input-div-child {
+    gap: 10px;
+}
+
+#task-list {
+    flex-direction: column;
+    padding: 0.6rem;
+    gap: 0.5rem;
+}
+
+.input-div {
+    flex-wrap: wrap;
+    gap: 0.6rem;
+}
+
+#input-text-field{
+    width: 150px;
+}

@@ -1,38 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student's Lounge | Boost your productivity!</title>
-    <link rel="stylesheet" href="./index/style.css">
-    <link rel="shortcut icon" href="./img/favicon/64_64.png" type="image/x-icon">
-    <link rel="manifest" href="./manifest.json">
-    <script src="./index/index.js"></script>
+    <title id="document-title">Student's Lounge | Boost your productivity!</title>
+    <script src="https://kit.fontawesome.com/6bf6193572.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/to-do.css">
+    <link rel="stylesheet" href="./css/resp.css">
+    <link rel="shortcut icon" href="./img/favicon/favicon_64.png" type="image/x-icon">
+    <link rel="manifest" href="manifest.json">
+    <script src="./js/app.js" defer></script>
+
 </head>
+
 <body>
-    <header>
-        <h1>Student's Lounge</h1>
-    </header>
-    <div class="grid">
-        <div class="stop-watch">
-            <iframe src="./stop-watch/stop-watch.html" frameborder="0"></iframe>
-        </div>
-        <div class="to-do">
-            <iframe src="./to-do/to-do.html" frameborder="0"></iframe>
-        </div>
-        <div class="time-remaining">
-            <iframe src="./time-remaining/time-remaining.html" frameborder="0"></iframe>
-        </div>
-        <div class="resources-saver">
-            <iframe src="./resources-saver/resources-saver.html" frameborder="0"></iframe>
-        </div>
-        <div class="feedback">
-            <iframe src="./feedback/feedback.html" frameborder="0"></iframe> 
-        </div>
+    <div class="whole-container">
+
+        <header>
+            <h1>Student's Lounge</h1>
+            <!-- XP -->
+            <span class="xp-points-disp"></span>
+            <div class="xp" onclick="alert('Earn XP by completing tasks and by recording your study time by the Stop-Watch.')">
+                <span class="xp-text">XP</span> : <span class="xp-points">0</span>
+            </div>
+        </header>
+        <!-- time-remaining -->
+        <main>
+    
+            <div class="time-remaining tool scroll">
+                <div class="tool-header">
+                    <h2>Time Remaining for Exam</h2>
+                    <div class="input-div">
+                        <input type="text" placeholder="Exam's Name" id="exam-name" required>
+                        <div class="input-div-child">
+                            <input type="date" id="date" placeholder='dd / mm / yyyy' required>
+                            <button class="submit btn">Add</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="exam-date-div">
+    
+                </div>
+            </div>
+    
+            <div class="grid">
+                <div class="grid-child-1">
+                    <!-- Stop-Watch -->
+                    <div class="stop-watch tool">
+                        <div class="tool-container">
+                            <h2>Stop Watch</h2>
+                            <div class="container">
+                                <div class="time-div">
+                                    <p class="hour time-num">00</p>
+                                    <p class="time-unit">h&nbsp;&nbsp;&nbsp;</p>
+                                    <p class="min time-num">00</p>
+                                    <p class="time-unit">m&nbsp;&nbsp;&nbsp;</p>
+                                    <p class="sec time-num">00</p>
+                                    <p class="time-unit">s&nbsp;&nbsp;&nbsp;</p>
+                                </div>
+                                <div class="stop-watch-btn-div">
+                                    <button class="start btn">Start</button>
+                                    <button class="stop btn" disabled>Stop</button>
+                                    <button class="reset btn" disabled>Reset</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- resources-saver -->
+                    <div class="resources-saver tool scroll">
+                        <div class="tool-container">
+                            <div class="tool-header">
+                                <h2>Resources Saver</h2>
+                                <div class="input-div">
+                                    <input type="text" placeholder="Title" id="resource-title" required>
+                                    <div class="input-div-child">
+                                        <input type="url" id="resource-url" placeholder="URL" required>
+                                        <button class="submitBtn btn"><i class="fa-solid fa-plus"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="resources-div">
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- To-Do -->
+                <div class="to-do tool scroll">
+                    <div class="tool-header">
+                        <h2>To-Do List</h2>
+                        <div class="input-div">
+                            <input type="text" placeholder="Add new task" required id="input-text-field">
+                            <div class="input-div-child">
+                                <input type="date" id="task-date" placeholder='dd / mm / yyyy' required>
+                                <button id="add-button" class="submit btn">Add</button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div id="task-list">
+    
+                    </div>
+                </div>
+        </main>
+        <footer>
+            <p>Made with ❤️ by Raghav Srivastava.</p>
+            <div>
+                <a href="mailto:raghavsrvt.dev@gmail.com?subject=Sharing my feedback on Student's Lounge.">Share Feedback</a> <span>or</span> <a href="mailto:raghavsrvt.dev@gmail.com?subject=Suggesting new features for Student's Lounge.">Suggest New Features</a>.
+            </div>
+        </footer>
+        
     </div>
-    <footer>
-        <p>Made with ❤️ by Raghav Srivastava.</p>
-    </footer>
 </body>
+
 </html>
