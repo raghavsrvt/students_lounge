@@ -415,7 +415,7 @@ const checkedBtn = () => {
 // PWA
 // Register a serviceWorker
 if ("serviceWorker" in navigator) {
-    navigator.serviceWorker.register("../service-worker.js");
+    navigator.serviceWorker.register("https://github.com/raghavsrvt/students_lounge/blob/master/service-worker.js");
     {
         scope: `https://raghavsrvt.github.io/students_lounge/`
     }
