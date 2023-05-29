@@ -417,6 +417,6 @@ const checkedBtn = () => {
 if ("serviceWorker" in navigator) {
     navigator.serviceWorker.register("../service-worker.js");
     {
-        scope: `../`
+        scope: `https://raghavsrvt.github.io/students_lounge/`
     }
 }
