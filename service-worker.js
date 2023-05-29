@@ -36,7 +36,7 @@
 /* eslint-env worker, serviceworker */
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
-"start_url" = '/'
+"start_url" = 'https://raghavsrvt.github.io/students_lounge/'
 
 var precacheConfig = [["README.md","0bb96eb9fc531734c31de8360f51aada"],["css/resp.css","7349e69ddfb9cc93e020fc68521d69e4"],["css/style.css","72d18c7f305695d21b12acbaf16e3d7a"],["css/to-do.css","7f783aa80e6596ff67861bd8af1b8696"],["img/delete-icon.svg","0770927b2ae4bfbc2b53a43b21315093"],["img/edit-icon.svg","673c97fcbec738a2d2760bd068c0a9b7"],["img/favicon/favicon_192.png","0af9c1b00b1357e067f671bfb2f48091"],["img/favicon/favicon_512.png","edf83aaa210344430fcbd670bbe99980"],["img/favicon/favicon_64.png","7657ac2dc18fcabb9932738e223e6db4"],["img/save-icon.svg","df9f790d08ab5b6d65d16a83dea53ad1"],["index.html","04c6bd64a3b6069818e354c6118058c2"],["js/app.js","86c1e1b40030d025836e74c30f8e1852"],["manifest.json","785f9435211ac4c87fbcb1eaa5e0080a"]];
 var cacheName = 'sw-precache-v3-sw-precache-' + (self.registration ? self.registration.scope : '');
