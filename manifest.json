@@ -17,5 +17,5 @@
     ],
     "theme_color": "#121212",
     "background_color": "#000000",
-    "display": "minimal-ui"
+    "display": "standalone"
 }
