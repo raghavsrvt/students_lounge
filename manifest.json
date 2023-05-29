@@ -1,21 +1,21 @@
 {
-    "name": "Student's Lounge by Raghav Srvt",
-    "short_name": "Student's Lounge",
-    "start_url": "./index.html",
-    "scope": "./",
-    "icons": [
-      {
-        "src": "./img/favicon/192_192.png",
-        "sizes": "192x192",
-        "type": "image/png"
-      },
-      {
-        "src": "./img/favicon/512_512.png",
-        "sizes": "512x512",
-        "type": "image/png"
-      }
-    ],
-    "theme_color": "#121212",
-    "background_color": "#000000",
-    "display": "minimal-ui"
+  "name": "Student's Lounge by Raghav Srvt",
+  "short_name": "Student's Lounge",
+  "start_url": "./index.html",
+  "scope": "./",
+  "icons": [
+    {
+      "src": "./img/favicon/192_192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/favicon/512_512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#121212",
+  "background_color": "#000000",
+  "display": "minimal-ui"
 }
