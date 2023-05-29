@@ -19,5 +19,6 @@
     ],
     "theme_color": "#121212",
     "background_color": "#000000",
-    "display": "minimal-ui"
+    "display": "standalone",
+    "description": "Boost student's productivity with this all-in-one web-app featuring a stopwatch, to-do lists, resource saving, and time remaining for exam calculator. Maximize your efficiency now!"
 }
