@@ -159,7 +159,14 @@ const fetchExams = () => {
         days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
         hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
         minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
-        timeRemainingEl.innerHTML = `${days} days , ${hours} hrs and ${minutes} mins remaining.`;
+        if(days<0 || hours<0 || minutes<0){
+            let parentNode = document.querySelector('.exam-date-div');
+            parentNode.removeChild(parent);
+            localStorage.setItem('exams', examDateDiv.innerHTML);
+        }
+        else{
+            timeRemainingEl.innerHTML = `${days} days , ${hours} hrs and ${minutes} mins remaining.`;
+        }
     })
 
     examDate.min = new Date().toISOString().split("T")[0];
