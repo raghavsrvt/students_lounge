@@ -2,7 +2,7 @@
     "name": "Student's Lounge by Raghav Srvt",
     "short_name": "Student's Lounge",
     "start_url": "./index.html",
-    "scope": "./",
+    "scope": "./index.html",
     "icons": [
       {
         "src": "./img/favicon/192_192.png",
