@@ -445,6 +445,6 @@ input[type = 'date'], input[type = 'date']:focus, input[type = 'date']:valid {
 }
 
 input[type = 'date']:focus::before,
-input[type = 'date']:valid::before {
+input[type = 'date']:valid::before, input[type = 'date']:valid:disabled:before {
 	content: "" !important;
 }
