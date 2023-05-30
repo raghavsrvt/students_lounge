@@ -92,7 +92,7 @@ To install the PWA  ->
 
 ## License
 
-Distributed under the MIT License. See [LICENSE](https://github.com/raghavsrvt/students_lounge/blob/main/LICENSE.md) for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/raghavsrvt/students_lounge/blob/master/LICENSE) for more information.
 
 ## Authors
 
