@@ -120,7 +120,6 @@ submitBtn.addEventListener('click', () => {
     }
     else {
         let examDateData = examDate.valueAsDate;
-        console.log(examDateData)
         timeRemaining = (examDateData.getTime() - todayDate.getTime());
         days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
         hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
