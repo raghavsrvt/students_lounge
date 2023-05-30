@@ -55,13 +55,14 @@ The web-app can be installed as PWA on any browser that supports PWAs.
 
 To install the PWA  ->
 
-1. Click on the prompt shown by the browser.
-    <img src = 'https://github.com/raghavsrvt/students_lounge/assets/117651088/c499cc95-1faf-4e46-a08f-6f59fc603cfc'>
+1. Click on the prompt shown by the browser.  
+
+    <img src = 'https://github.com/raghavsrvt/students_lounge/assets/117651088/c499cc95-1faf-4e46-a08f-6f59fc603cfc' width='300px'>
 
 
 2. Click on install to finally install the PWA.
 
-    <img src = 'https://github.com/raghavsrvt/students_lounge/assets/117651088/8198a191-3b9e-4c97-a31e-15a5e3f8d7e1'>
+    <img src = 'https://github.com/raghavsrvt/students_lounge/assets/117651088/8198a191-3b9e-4c97-a31e-15a5e3f8d7e1' width='300px'>
 
 
 ## Usage
