@@ -56,33 +56,38 @@ The web-app can be installed as PWA on any browser that supports PWAs.
 To install the PWA  ->
 
 1. Click on the prompt shown by the browser.
-<img src = 'https://github.com/raghavsrvt/students_lounge/assets/117651088/fcffbb32-0f45-4e32-b22e-47fee8ee7d04' height = '300px'>
+    <img src = 'https://github.com/raghavsrvt/students_lounge/assets/117651088/c499cc95-1faf-4e46-a08f-6f59fc603cfc'>
+
 
 2. Click on install to finally install the PWA.
-<img src = 'https://github.com/raghavsrvt/students_lounge/assets/117651088/043546db-dd74-40e5-83c0-c7dce67c6f1c' height = '300px'>
+
+    <img src = 'https://github.com/raghavsrvt/students_lounge/assets/117651088/8198a191-3b9e-4c97-a31e-15a5e3f8d7e1'>
 
 
 ## Usage
 
 1. Use the time remaining for exam calculator to efficiently prepare for your upcoming exam.
 
-    <img src = 'https://github.com/raghavsrvt/students_lounge/assets/117651088/7c9cf958-b692-4d6e-ae8a-331f796a7e6d' width='300px'>
+    <img src = 'https://github.com/raghavsrvt/students_lounge/assets/117651088/c90a8377-aa8c-4812-b3f9-b9f917e6c0f5' width='300px'> 
+   
 
 
 2. Use the stop watch to accurately monitor your study time.
 
-    <img src = 'https://github.com/raghavsrvt/students_lounge/assets/117651088/d05a5bca-d765-45c5-9e40-29ef9834ccac' width='300px'>
+    <img src = 'https://github.com/raghavsrvt/students_lounge/assets/117651088/b0ded58f-94fe-4e5c-8892-6094a32b6128' width='300px'>
 
 
 
 3. Use the resources saver to save useful links from the web.
 
-    <img src = 'https://github.com/raghavsrvt/students_lounge/assets/117651088/2ccf0824-35e7-4466-a084-3b41346b1f93' width='300px'>
+    <img src = 'https://github.com/raghavsrvt/students_lounge/assets/117651088/bf970d33-d7ba-471c-a1da-04ae8039bbb9' width='300px'>
+
+
 
 
 4. Use the to-do list to manage your tasks.
 
-    <img src = 'https://github.com/raghavsrvt/students_lounge/assets/117651088/7c9cf958-b692-4d6e-ae8a-331f796a7e6d' width='300px'>
+    <img src = 'https://github.com/raghavsrvt/students_lounge/assets/117651088/8d39aa11-7a78-4992-be3b-1eb5f542a322' width='300px'>
 
 ## License
 
