@@ -235,6 +235,10 @@ resetBtn.addEventListener('click', () => {
     min.innerHTML = '00';
     hrs.innerHTML = '00';
 
+    secText = '00';
+    minText = '00';
+    hourText = '00';
+
     documentTitle.innerText = "Student's Lounge | Boost your productivity!"
 })
 
