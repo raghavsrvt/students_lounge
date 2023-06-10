@@ -79,13 +79,13 @@ submitBtnRes.addEventListener('click', () => {
         alert(`Please enter a valid URL.\nMake sure to include full URL including "https"`);
     }
     else {
-        let resourcesTitle = `
-        <div class = 'resource-title'>
+        let resourcesTitle = document.createElement('div');
+        resourcesTitle.classList.add('resource-title');
+        resourcesTitle.innerHTML = `
             <a class = "resourceTitleName" href="${resourceUrl.value}" target="_blank">${resourceTitle.value}</a>
-            <button class = 'delete' onclick="dltRes()"><img src="./img/delete-icon.svg" alt=""></button>
-        </div>`
+            <button class = 'delete' onclick="dltRes()"><img src="./img/delete-icon.svg" alt=""></button>`
 
-        resourcesDiv.innerHTML += (resourcesTitle);
+        resourcesDiv.prepend(resourcesTitle);
         localStorage.setItem('resources', resourcesDiv.innerHTML);
         resourceTitle.value = '';
         resourceUrl.value = ''
@@ -125,15 +125,15 @@ submitBtn.addEventListener('click', () => {
         hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
         minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
 
-        let examData = `
-        <div class = 'exam-title'>
+        let examData = document.createElement('div');
+        examData.classList.add('exam-title')
+        examData.innerHTML = `
             <p class = "examDateAsValue hidden">${examDateData}</p>
             <p class = "examTitleName">${examName.value}</p>
             <p class = "time-remaning">${days} days , ${hours} hrs and ${minutes} mins remaining.</p>
-            <button class = 'delete' onclick="dlt()"><img src="./img/delete-icon.svg" alt=""></button>
-        </div>`;
+            <button class = 'delete' onclick="dlt()"><img src="./img/delete-icon.svg" alt=""></button>`;
 
-        examDateDiv.innerHTML += (examData);
+        examDateDiv.prepend(examData);
         localStorage.setItem('exams', examDateDiv.innerHTML);
         examDate.value = '';
         examName.value = ''
@@ -361,7 +361,7 @@ const creatTask = () => {
         </div>
         `;
 
-    taskList.appendChild(taskElement);
+    taskList.prepend(taskElement);
     taskInput.value = '';
     taskDate.value = '';
 
